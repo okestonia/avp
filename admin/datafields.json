@@ -1,0 +1,81 @@
+{
+  "processes" : {
+    "0":{
+      "0":{
+        "0": "vajaduste väljaselgitamine (dets 2018)",
+        "1": "alternatiivide kaalumine (juuni 2019)",
+        "2": "lähteülesande koostamine (juuni 2019)"
+      },
+      "1":{
+        "0": "võrgustiku töökorraldus üle vaadatud (dets 2018)",
+        "1": "hange välja kuulutatud (dets 2018)",
+        "2": "ametnikud koolitatud (dets 2018)",
+        "3": "võrgustik tegutseb aktiivselt (dets 2019)",
+        "4": "tippjuhid koolitatud (dets 2019)",
+        "5": "ametnikud koolitatud (dets 2019)"
+      },
+      "2":{
+        "0": "riigikogu avaandmed on testkasutuses (mai 2019)",
+        "1": "riigikogu avaandmed on püsivalt kättesaadavad (juuni 2019)",
+        "2": "protokollid avaldatakse esimesel võimalusel (juuni 2020)"
+      }
+    },
+    "1": {
+      "0": {
+        "0": "taotlemise tingimuste läbirääkimine (sept 2018)",
+        "1": "taotlusvooru väljakuulutamine (dets 2018)",
+        "2": "5 KOV-is avatud valitsemise tegevuskava välja töötatud (dets 2020)"
+      },
+      "1": {
+        "0": "prototüübi koostamine (dets 2018)",
+        "1": "lähteülesande koostamine (veebr 2019)",
+        "2": "arendus valmis (dets 2019)",
+        "3": "kasutuse propageerimine (juuni 2020)"
+      }
+    },
+    "2": {
+      "0": {
+        "0": "ettepanekud esitatud (dets 2018)",
+        "1": "konsultatsioonid huvirühmadega (dets 2019)"
+      }
+    }
+  },
+  "slice indices": {
+    "0":{
+      "0":{
+        "start": 1,
+        "end": 5
+      },
+      "1":{
+        "start": 7,
+        "end": 11
+      },
+      "2":{
+        "start": 13,
+        "end": 17
+      }
+    },
+    "1": {
+      "0": {
+        "start": 19,
+        "end": 24
+      },
+      "1": {
+        "start": 25,
+        "end": 29
+      }
+    },
+    "2": {
+      "0": {
+        "start": 31,
+        "end": 35
+      }
+    }
+  },
+  "levels": {
+    "0": "ootel (0%)",
+    "1": "töö käib (1-50%)",
+    "2": "peaaegu valmis (50-75%)",
+    "3": "tehtud (75-100%)"
+  }
+}

@@ -1,0 +1,23 @@
+<FilesMatch "data*">
+    Order Allow,Deny
+    Deny from All
+</FilesMatch>
+
+<FilesMatch "cacert.pem*">
+    Order Allow,Deny
+    Deny from All
+</FilesMatch>
+
+<FilesMatch "refresh.php">
+  <Limit GET HEAD>
+  Order Allow,Deny
+  Deny from all
+  </Limit>
+</FilesMatch>
+
+<FilesMatch "datatimestamp.php*">
+  <Limit GET HEAD>
+  Order Allow,Deny
+  Deny from all
+  </Limit>
+</FilesMatch>
