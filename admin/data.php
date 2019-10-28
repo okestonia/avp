@@ -1,5 +1,5 @@
 <?php
-$csv_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTnQyepuNi3iyKjDrTPlG9Gwdx_rh_dL9Oo7pu69qNfDIftHl5ut_cTmRNmYc5Q0frSNJj1W3fkb5ys/pub?gid=243294232&single=true&output=csv";
+$csv_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRrOsh7e1CNIm2MxQaIXoKyJxGV0jxJMTYPW4fkUgv9zjZXmHxxvF16bvRJbZv0QL6x8ekA5AjlkZ_v/pub?gid=1414115773&single=true&output=csv";
 ?>
 
 <?php
@@ -158,7 +158,7 @@ function get_next_row_by_required_size($req_size, $arr, $i) {
     }
     $a .= $row[$key];
   }
-  if (strlen($a == 0)) {
+  if (strlen($a) == 0) {
     return array($row, $next_i, false);
   }
   return array($row, $next_i, true);

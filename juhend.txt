@@ -7,16 +7,16 @@ Tööriist kuvab kõik tegevuskava etapid ning visualiseerib nende edenemist vä
 PAIGALDAMINE JA SEADISTAMINE
 
 * Tööriista paigaldamiseks tuleb ta lahti pakkida töötavasse serverisse koos kõikide lisafailidega nagu tavaline veebileht.
-* Tööriistaga seotud Google Forms küsimustik asub lingil:
-* Google Formsi genereeritav Google Sheets tabel asub lingil: 
+* Tööriistaga seotud Google Forms küsimustik asub lingil: https://docs.google.com/forms/d/10NdrOM1BH5w1liBDYo0AnYDB4WUtNQHMg1juLNi3ls4/edit
+* Google Formsi genereeritav Google Sheets tabel, kus saab vastuseid hallata, asub lingil: https://docs.google.com/spreadsheets/d/1vfJfrsAKaAHX3HaDFPKpVB8OqWKkkrHWcUfAgn4GWwk/edit#gid=1414115773
 
 ANDMETE UUENDAMINE
 
-Kui küsimustikule on tulnud uusi vastuseid, navigeerida tööriista haldajal Google Formis poolt genereeritud vastuste (Responses) tabelile (Google Sheets) ning veenduda, et iga sisend peale kontaktide on ainuke sisend oma tulbas. Vajadusel (näiteks kui samale küsimusele on mõne aja möödudes uuesti vastatud) kustutada eelmised sisendid või liita need kokku üheks.
+Kui küsimustikule on uusi vastuseid, navigeerida tööriista haldajal Google Formis poolt genereeritud vastuste (Responses) tabelile (Google Sheets) ning veenduda, et iga sisend peale kontaktide on ainuke sisend oma tulbas. Vajadusel (näiteks kui samale küsimusele on mõne aja möödudes uuesti vastatud) kustutada eelmised sisendid või liita need kokku üheks.
 
 Andmete uuendamiseks tööriistas navigeerida URL-ile /avp/admin/index.php ja vajutada nupule "Värskenda andmeid". Seepeale tõmbab tööriist Google Sheetsist kõige värskemad andmed ja uuendab vastavad väljad.
 
-Tähelepanu! Google Formsi uuendamisel ja seejärel kohe andmete värskendamisel ei pruugi andmed kohe uueneda, see tuleneb Google-i süsteemi poolsest viivitusest. Sel juhul oodata mõni minut ja seejärel proovida uuesti andmeid värskendada.
+Tähelepanu! Google Formsi uuendamisel ja seejärel kohe andmete värskendamisel ei pruugi andmed kohe uueneda, see tuleneb Google-i süsteemi poolsest viivitusest. Sel juhul oodata mõni minut ja seejärel proovida uuesti "Värskenda andmeid" nuppu vajutada.
 
 
 TÖÖRIISTA TOIMIMISE EELDUSED
